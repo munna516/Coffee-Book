@@ -25,7 +25,7 @@ const Header = () => {
                             tabindex="0"
                             class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow ">
                             <NavLink to='/' className={({ isActive }) => `${isActive ? 'text-orange-400' : ''}`}>Home</NavLink>
-                            <NavLink to='/coffees' className={({ isActive }) => `${isActive ? 'text-orange-400' : ''}`}>Coffees</NavLink>
+                            <NavLink to='/allcoffees' className={({ isActive }) => `${isActive ? 'text-orange-400' : ''}`}>Coffees</NavLink>
                             <NavLink to='/dashboard' className={({ isActive }) => `${isActive ? 'text-orange-400' : ''}`}>Dashboard</NavLink>
                         </ul>
                     </div>
@@ -34,7 +34,7 @@ const Header = () => {
                 <div class="navbar-end hidden lg:flex">
                     <ul class="menu menu-horizontal px-1 gap-12 font-bold text-xl">
                         <NavLink to='/' className={({ isActive }) => `${isActive ? 'text-orange-400' : ''}`}>Home</NavLink>
-                        <NavLink to='/coffees' className={({ isActive }) => `${isActive ? 'text-orange-400' : ''}`}>Coffees</NavLink>
+                        <NavLink to='/allcoffees' className={({ isActive }) => `${isActive ? 'text-orange-400' : ''}`}>Coffees</NavLink>
                         <NavLink to='/dashboard' className={({ isActive }) => `${isActive ? 'text-orange-400' : ''}`}>Dashboard</NavLink>
                     </ul>
                 </div>
